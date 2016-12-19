@@ -1,1 +1,29 @@
-%h1 This is the welcome pleceholder 
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Ваша записная книжка онлайн. Вы больше никогда не забудете ни одной вашей идеи!
+		%button= link_to "Войти", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "Такие приложения сейчас пользуются большой популярностью"
+		%p.name - Крутое рекламное агенство
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Быстро!
+				%p Чтобы начать работу требуется только зарегистрироваться!
+
+			.callout
+				%h2 Удобно
+				%p Не требует лишних установок. Сразу готов к работе!
+
+
+#bottom_cta
+	.wrapper
+		%h2 Вперед!
+		%p 
+		%button= link_to "Начать работу!!!", new_user_registration_path
+
+%footer
+%p &copy; Очень крутой заказчик
