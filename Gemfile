@@ -12,7 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'haml', '~> 4.0', '>= 4.0.7'
-gem 'simple_form', '~> 3.3', '>= 3.3.1'
+gem 'simple_form', '~> 5.0'
 gem 'devise', '~> 4.2'
 
 group :development, :test do
