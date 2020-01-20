@@ -13,7 +13,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
