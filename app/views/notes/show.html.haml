@@ -5,4 +5,5 @@
 
 		.buttons
 			= link_to "Редактировать", edit_note_path(@note), class: "button"
+			= link_to "Назад", root_path, class: "button"
 			= link_to "Удалить", note_path(@note), method: :delete, data: { confirm: "Вы уверены?" }, class: "button"

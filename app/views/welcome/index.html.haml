@@ -2,7 +2,8 @@
 	.banner_content
 		%h1 NoteNote
 		%p Ваша записная книжка онлайн. Вы больше никогда не забудете ни одной вашей идеи!
-		%button= link_to "Войти", new_user_registration_path
+		.buttons
+		= link_to "Регистрация", new_user_registration_path, class: "button"
 #testimonial
 	.wrapper
 		%p.quote "Такие приложения сейчас пользуются большой популярностью"
@@ -23,7 +24,8 @@
 	.wrapper
 		%h2 Вперед!
 		%p 
-		%button= link_to "Начать работу!!!", new_user_registration_path
+		.buttons
+		= link_to "Начать работу!!!", new_user_registration_path, class: "button"
 
 %footer
 %p &copy; Очень крутой заказчик
